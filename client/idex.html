@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="f block">
+        <h1 class="f__h">Добавление товара</h1>
+        <input type="text" placeholder="название ..." class="f__t">
+        <input type="number" placeholder="цена ..." class="f__c">
+        <input type="checkbox" placeholder="скидка ..." class="f__d">
+        <button class="f__a">Добавить</button>
+    </div>
+
+    <div class="hasDiscount block">
+        <h1 class="hD__h">Акционные товары</h1>
+        <div class="b block1">
+            <div class="product">
+                <span>название</span>
+                <span style="text-decoration: line-through;">15$</span>
+                <span>10%</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="hasNotDiscount block">
+        <h1 class="hND__h">Все товары</h1>
+        <div class="b block2"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
